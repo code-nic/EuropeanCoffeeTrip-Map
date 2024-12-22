@@ -5,7 +5,7 @@
 # https://europeancoffeetrip.com/cafe-sitemap.xml bis https://europeancoffeetrip.com/cafe-sitemap5.xml
 
 #iterating through the list -> request every website and scrape the following values -> Title, Address, Coordinates (later opening hours etc)
-    #coordinates -> <div id="cafe-map">
+    #coordinates -> ####<div id="cafe-map">###
 #using rotating proxies to not get blocked
 #storing the values in a dict(cafelink:[name,address,coordinates])
 
