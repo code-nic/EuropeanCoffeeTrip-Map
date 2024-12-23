@@ -1,12 +1,24 @@
-#Just a test repo
+# EuropeanCoffeeTrip-Map
 
-#TODO
-#using xml-sites to store all cafe-links in a list
-# https://europeancoffeetrip.com/cafe-sitemap.xml bis https://europeancoffeetrip.com/cafe-sitemap5.xml
+## Overview
+This project aims to create a comprehensive map of cafes listed on [European Coffee Trip](https://europeancoffeetrip.com/). By scraping information such as names, addresses, and coordinates, we generate a GeoJSON dataset that can be visualized using uMap and OpenStreetMap.
 
-#iterating through the list -> request every website and scrape the following values -> Title, Address, Coordinates (later opening hours etc)
-    #coordinates -> ####< d i v i d = " c a f e - m a p " > ####
-#using rotating proxies to not get blocked
-#storing the values in a dict(cafelink:[name,address,coordinates])
+## Features
+- Scrapes cafe data (name, address, coordinates) from all subpages of European Coffee Trip.
+- Converts scraped data into a dictionary and then into a GeoJSON file.
+- Supports map visualization using tools like uMap.
 
-#creating the geojson format to import into umap.openstreetmap ->values in geojson name:titel description:address coordinates:[x,y]
+## Approaches
+### 1. Proxy-Based Scraping
+- Utilizes proxies to ensure seamless and efficient scraping by mimicking multiple sources.
+
+### 2. Direct Scraping
+- Connects directly to the target website without proxies for a straightforward implementation.
+
+## Dependencies
+This project relies on the following Python libraries:
+- `requests`
+- `BeautifulSoup` (from `bs4`)
+- `geojson`
+- Additional libraries for handling proxies, if needed.
+
