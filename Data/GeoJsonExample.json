@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Můj šálek kávy",
+        "description": "Rue du Mont-Blanc 15, CH-1201 Geneva, Switzerland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.455158, 50.0935184]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elias Coffee Shop",
+        "description": "<Addresse>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.4261752, 50.0799321]
+      }
+    }
+  ]
+}
