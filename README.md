@@ -22,3 +22,7 @@ This project relies on the following Python libraries:
 - `geojson`
 - Additional libraries for handling proxies, if needed.
 
+## Final Map
+https://umap.openstreetmap.de/de/map/european-coffe-trip-map_77902#4/53.72/27.33
+
+
