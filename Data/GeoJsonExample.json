@@ -5,7 +5,16 @@
       "type": "Feature",
       "properties": {
         "name": "Můj šálek kávy",
-        "description": "Rue du Mont-Blanc 15, CH-1201 Geneva, Switzerland"
+        "description": "Rue du Mont-Blanc 15, CH-1201 Geneva, Switzerland",
+        "opening_hours": {
+          "monday": "08:00 - 18:00",
+          "tuesday": "08:00 - 18:00",
+          "wednesday": "08:00 - 18:00",
+          "thursday": "08:00 - 18:00",
+          "friday": "08:00 - 20:00",
+          "saturday": "09:00 - 20:00",
+          "sunday": "09:00 - 18:00"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -16,7 +25,16 @@
       "type": "Feature",
       "properties": {
         "name": "Elias Coffee Shop",
-        "description": "<Addresse>"
+        "description": "<Addresse>",
+        "opening_hours": {
+          "monday": "08:00 - 18:00",
+          "tuesday": "08:00 - 18:00",
+          "wednesday": "08:00 - 18:00",
+          "thursday": "08:00 - 18:00",
+          "friday": "08:00 - 20:00",
+          "saturday": "09:00 - 20:00",
+          "sunday": "09:00 - 18:00"
+        }
       },
       "geometry": {
         "type": "Point",
